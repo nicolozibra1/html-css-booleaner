@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 header{
     background-color:#4ea0ff;
     background-image: url(../img/pattern.png);
@@ -12,4 +13,16 @@ header{
     width: 20%;
     padding-top: 75px;
     padding-left: 10px;
+}
+
+/* MAIN */
+.container-title{
+    padding-left: 10px;
+}
+.title{
+    font-size: xx-large;
+}
+.author, .date{
+    font-size: x-large;
+    color: #878787;
 }
