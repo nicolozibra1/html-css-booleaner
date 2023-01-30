@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    background-color:#4ea0ff;
+    background-image: url(../img/pattern.png);
+}
+
+.logo{
+    margin-left: 20%;
+    width: 10%;
+    padding-top: 75px;
+    padding-left: 10px;
+}
+
+/* MAIN TITLE */
+.main-container{
+    width: 60%;
+    margin:auto;
+}
+.container-title{
+    padding-left: 10px;
+}
+.title{
+    font-size: xx-large;
+}
+.author, .date{
+    font-size: x-large;
+    color: #878787;
+}
+
+/* MAIN GALLERY */
+.photogallery{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* PARAGRAGO 1 e 2 */
+.paragraph-1, .paragraph-2{
+    margin-left:10px;
+    margin-top:30px;
+    font-size: x-large;
+}
+.p1, .p2{
+    margin-top: 30px;
+}
+mark{
+    background-color: #ffff00;
+}
+/* TABELLA */
+.container-table{
+    margin-top: 30px;
+}
+table{
+    width: 99%;
+    margin:10px;
+    border-collapse: collapse;
+}
+thead{
+    background-color:#20a9e5;
+    color: white;
+    text-align: left;
+}
+.data{
+    width: 25%;
+}
+.result{
+    width: 50%;
+}
+.line1, .line3{
+    background-color:#b1e5f2;
+}
+td{
+    padding-top: 5px;
+    padding-bottom: 5px;;
+}
+/* FOOTER */
+.related{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+h3{
+    color:#878787;
+}
+.related > img{
+    display: block;
+    margin-top:10px;
+}
+hr{
+    margin-top:30px;
+}
+h5{
+    margin-top: 10px;
+    text-align: center;
+}
